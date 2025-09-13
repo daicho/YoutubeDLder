@@ -85,7 +85,7 @@ public class MainModel
 
         try
         {
-            string[] videos = VideoList.Value.Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries);
+            string[] videos = VideoList.Value.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
             for (int i = 0; i < videos.Length; i++)
             {
