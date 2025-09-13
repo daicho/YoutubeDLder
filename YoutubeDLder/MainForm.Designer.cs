@@ -64,7 +64,7 @@
             // 
             splitContainer1.Panel2.Controls.Add(consoleText);
             splitContainer1.Size = new Size(960, 536);
-            splitContainer1.SplitterDistance = 499;
+            splitContainer1.SplitterDistance = 480;
             splitContainer1.TabIndex = 0;
             // 
             // videoListText
@@ -75,7 +75,7 @@
             videoListText.Multiline = true;
             videoListText.Name = "videoListText";
             videoListText.ScrollBars = ScrollBars.Both;
-            videoListText.Size = new Size(499, 536);
+            videoListText.Size = new Size(480, 536);
             videoListText.TabIndex = 0;
             // 
             // consoleText
@@ -90,7 +90,7 @@
             consoleText.Name = "consoleText";
             consoleText.ReadOnly = true;
             consoleText.ScrollBars = ScrollBars.Both;
-            consoleText.Size = new Size(457, 536);
+            consoleText.Size = new Size(476, 536);
             consoleText.TabIndex = 0;
             // 
             // downloadButton

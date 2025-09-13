@@ -110,7 +110,7 @@ public class MainModel
                 else
                 {
                     // キーワード検索
-                    arguments += $"\"ytsearch1:{video.Replace("-", "")}\" ";
+                    arguments += $"\"ytsearch1:{video.Replace("-", "")}\" --no-playlist --max-downloads 1 ";
                 }
 
                 // 動画フォーマット
